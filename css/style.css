@@ -1,0 +1,149 @@
+.vzx-mspost-content {
+   padding: 15px 15px;
+    background: white;
+	border-bottom: 2px solid #fafafa;
+}
+p.slct1_status {
+    border-left: 4px solid #FFBA00;
+    padding-left: 10px !important;
+    padding: 7px 0px;
+	margin-top: 0px;
+}
+.ms-post-title{
+	background: white;
+    border-left: 4px solid #FFBA00;
+    padding: 10px !important;
+    border-bottom: 2px solid #fafafa;
+    font-weight: 700;
+    margin: 0px;
+	line-height: 29px !important;
+}
+.form-group-field {
+    margin-bottom: 15px;
+    display: flex;
+}
+.left_label {
+    width: 15%;
+    float: left;
+}
+.rigth_input {
+    width: 85%;
+    float: right;
+}
+.mb_share_slct{
+    width:200px !important;
+}
+.rigth_input input, select{
+    width: 100%;
+    border: 0px;
+    text-indent: 6px;
+    border-radius: 6px;
+	padding: 6px 0px !important;
+    height: auto !important;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 0px 0px rgba(0,0,0,.07);
+}
+.rigth_input input:hover, select:hover,.rigth_input input:focus,select:focus {
+    border: 1px solid #ccc !important;
+	padding: 6px 0px !important;
+    box-shadow: 0px 0px;
+	height: auto !important;
+}
+.loading-data{
+	display:none;
+}
+.post-thumb {
+    margin: 10px auto;
+	width: 200px;
+}
+.ms_post_share_btn {
+    border: 0px;
+    color: white;
+    padding: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    width: 30.5%;
+    line-height: 25px;
+    text-align: center;
+    float: left;
+	margin-bottom:10px;
+    margin-right: 2%;
+}
+a#pinterest_ms_post {
+	background: #BD081C;
+}
+a#email_ms_post {
+	background: #5CB85C;
+}
+a#tumblr_ms_post {
+	background: #9a7765;
+}
+a#reddit_ms_post {
+	background: #FF4500;
+}
+a#digg_ms_post {
+	background: #242424;
+}
+a#linkedin_ms_post {
+    background: #0077B5;
+}
+a#stumbleupon_ms_post {
+    background: #EB4924;
+}
+a#addmore_ms_post {
+    background: brown;
+}
+#twitter_ms_post{
+	background:#0084b4;
+}
+#fb_ms_post {
+    background: #3b5998;
+}
+#gplus_ms_post {
+    background: #d34836;
+}
+.ms_post_share_btn:nth-child(3n) {
+    margin-right: 0px;
+}
+.ms_post_share_btn:hover,.ms_post_share_btn:focus{
+	color:white;
+}
+.left_label label {
+    line-height: 38px;
+	cursor: default;
+}
+.ms_post_share_btn .fa{
+	float: left;
+}
+.disabled {
+        pointer-events: none;
+        cursor: not-allowed;
+		opacity: 0.6;
+}
+img#post-thumb {
+    border-radius: 6px;
+	width: 170px;
+    height: 170px;
+}
+.mywrap a{
+	text-decoration:none !important;
+}
+.mywrap p,h1,h2,h3,h4,h5,h6{
+	margin-top:0px;
+}
+.ms-post-footer {
+    background: white;
+    padding: 10px 0px;
+    text-align: center;
+}
+.ms-post-footer p {
+    margin: 0px;
+}
+.ms-post-footer a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #12A1FF;
+}

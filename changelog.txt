@@ -1,0 +1,7 @@
+Plugin Name: Unique Easy Share Posts
+Author: WebKingClub
+
+Change Log:
+----------------------------------------------------------------------
+
+Initial upload 1.0.0

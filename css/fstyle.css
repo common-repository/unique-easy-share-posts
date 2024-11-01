@@ -1,0 +1,93 @@
+.share-ms_psot {
+    display: inline-block;
+    width: 100%;
+    clear: both;
+}
+.ms_post_share_btn {
+    border: 0px;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    width: 23%;
+    line-height: 25px;
+    text-align: center;
+    float: left;
+	margin-bottom:10px;
+    margin-right: 2%;
+}
+.ms_post_share_btn .fa{
+    transform: rotate(0deg);
+    transition: all 0.5s ease-in-out;
+}
+.ms_post_share_btn:hover{
+    opacity:0.9;
+}
+.ms_post_share_btn:hover .fa {
+    transform: rotate(45deg);
+    transition: all 0.5s ease-in-out;
+}
+a#pinterest_ms_post {
+	background: #BD081C;
+}
+a#email_ms_post {
+	background: #5CB85C;
+}
+a#tumblr_ms_post {
+	background: #9a7765;
+}
+a#reddit_ms_post {
+	background: #FF4500;
+}
+a#digg_ms_post {
+	background: #242424;
+}
+a#linkedin_ms_post {
+    background: #0077B5;
+}
+a#stumbleupon_ms_post {
+    background: #EB4924;
+}
+a#addmore_ms_post {
+    background: brown;
+}
+#twitter_ms_post{
+	background:#0084b4;
+}
+#fb_ms_post {
+    background: #3b5998;
+}
+#gplus_ms_post {
+    background: #d34836;
+}
+.ms_post_share_btn:nth-child(4n) {
+    margin-right: 0px;
+}
+.ms_post_share_btn:hover,.ms_post_share_btn:focus{
+	color:white;
+}
+.ms_post_share_btn .fa{
+	float: left;
+}
+@media all and  (min-width: 481px) and (max-width: 767px){
+    .share-ms_psot {
+        display: inline-block;
+        width: 100%;
+        clear: both;
+    }
+    .ms_post_share_btn {
+        width: 48%;
+    }
+}
+@media all and  (min-width: 0px) and (max-width: 480px){
+    .share-ms_psot {
+        display: inline-block;
+        width: 100%;
+        clear: both;
+    }
+    .ms_post_share_btn {
+        width: 98%;
+    }
+}
